@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Lam Yên Dưỡng Sinh – TPS Đặt Lịch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section id="booking-section">
+    <h2>Đặt Lịch Dịch Vụ</h2>
+
+    <form id="booking-form">
+      <label>Họ và tên</label>
+      <input type="text" id="name" required>
+
+      <label>Số điện thoại</label>
+      <input type="text" id="phone" required>
+
+      <label>Dịch vụ</label>
+      <select id="service">
+        <option>Gội đầu dưỡng sinh</option>
+        <option>Chăm sóc da</option>
+        <option>Combo thư giãn</option>
+      </select>
+
+      <label>Ngày</label>
+      <input type="date" id="date" required>
+
+      <label>Giờ</label>
+      <input type="time" id="time" required>
+
+      <button type="submit">Đặt lịch</button>
+    </form>
+
+    <h3>Lịch đã đặt</h3>
+    <ul id="booking-list"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
