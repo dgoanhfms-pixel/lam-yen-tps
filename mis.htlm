@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>MIS – Báo cáo quản lý</title>
+</head>
+<body>
+
+  <h2>BÁO CÁO QUẢN LÝ (MIS)</h2>
+
+  <button onclick="generateReport()">Tạo báo cáo</button>
+
+  <h3>Thống kê số lượt theo dịch vụ</h3>
+  <ul id="report"></ul>
+
+  <script src="mis.js"></script>
+</body>
+</html>
